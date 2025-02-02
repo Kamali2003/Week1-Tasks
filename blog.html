@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    
+    <style>
+        body{
+            background-image: url('bg2.jpg');
+            background-size: cover;
+        }
+        header h1{
+            text-align: center;
+            color: purple;
+            font-size: 3rem;
+            margin: 25px;
+            font-family: cursive;
+        }
+        .blog{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 90px;
+            justify-content: center;
+            padding: 20px;
+}
+
+
+        .bp{
+            width: 300px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+           
+            transition: transform 0.3s ease-in-out;
+            }
+
+        .bp:hover {
+            transform: translateY(-5px);
+}
+
+        .bp img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 3px solid whitesmoke;
+}
+
+        .post {
+            padding: 15px;
+            text-align: center;
+    }
+
+        .post h2 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: black;
+    }
+
+    .date {
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 10px;
+            display: block;
+    }
+
+    .content {
+            font-size: 16px;
+            color: gray;
+            line-height: 1.5;
+            margin-bottom: 15px;
+    }
+
+    .read {
+        display: inline-block;
+        padding: 8px 15px;
+        background: blue;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background 0.3s;
+    }
+
+    .read:hover {
+        background: #0056b3;
+    }
+
+     footer h1{
+        font-size: 45px;
+        color: darkmagenta;
+        text-align: center;
+
+     } 
+     
+     footer p{
+        color: gray;
+        font-style: italic;
+        font-size: 24px;
+        text-align: center;
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BLOG</h1>
+    </header>
+    <section class="blog">
+        
+        <article class="bp">
+            <img src="food.jpg" alt="Food">
+            <div class="post">
+                <h2>Flavours Of India</h2>
+                <p class="date">Published on October 5, 2023</p>
+                <p class="content">
+                    Experience the rich flavors of every state in one place! From spicy street foods to traditional delicacies, explore India's diverse culinary heritage.
+                </p>
+                <a href="food.html" class="read">Read More</a>
+            </div>
+        </article>
+
+        <article class="bp">
+            <img src="travel.jpg">
+            <div class="post">
+                <h2>Travel Tales</h2>
+                <p class="date">Published on May 31, 2024</p>
+                <p class="content">
+                    Explore the world one destination at a time! From hidden gems to iconic landmarks, join me on unforgettable travel adventures.</p>
+                <a href="travel.html" class="read">Read More</a>
+            </div>
+        </article>
+
+        
+        <article class="bp">
+            <img src="techie.jpg" alt="Techies">
+            <div class="post">
+                <h2>Next-Gen Tech</h2>
+                <p class="date">Published on September 15, 2024</p>
+                <p class="content">
+                    Stay ahead in the tech world with the latest trends, innovations, and hacks! Explore everything from coding to AI, gadgets, and beyond
+                </p>
+                <a href="techie.html" class="read">Read More</a>
+            </div>
+        </article>
+
+
+
+    </section>
+</main>
+<footer>
+    <h1>Hang onto your memories</h1>
+     <p>Save the moments that matter. We lets you safely store thousands of posts, photos</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+</section>
+
+
+</body>
+</html>

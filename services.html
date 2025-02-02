@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bg3.jpg');
+            background-size: cover;
+    }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: darkmagenta;
+            font-size: 45px;
+    }
+
+        .services-section {
+            padding: 50px;
+    }
+
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+}
+
+        .service-card {
+            border: 2px solid cyan;
+            background-color: white;
+            border-radius: 50px;
+            padding: 20px;
+            margin: 10px;
+            width: 280px;
+            transition: all 0.3s ease;
+}
+
+        .service-card h2 {
+            font-size: 1.5rem;
+            color: grey;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            color: grey;
+            font-size: 1rem;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            
+        }
+
+        .service-card:hover h2 {
+            color: blue;
+        }
+
+        footer {
+            background: gray;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="services-section">
+        <h1>Our Services</h1>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="web.jpg" alt="web">
+                <h2>Web Design</h2>
+                <p>Professional web design services that create visually appealing, user-friendly websites tailored to your brand. We focus on responsive design, seamless navigation, and engaging user experiences</p>
+            </div>
+            <div class="service-card">
+                <img src="seo.jpg" alt="seo">
+                <h2>SEO</h2>
+                <p>Enhancing website visibility and ranking through targeted SEO strategies, keyword optimization, and content marketing.</p>
+            </div>
+            <div class="service-card">
+                <img src="cw.jpg" alt="content">
+                <h2>Content Writing</h2>
+                <p>Creating high-quality, engaging content tailored to your audience, enhancing brand presence and driving conversions.</p>
+            
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; The Fusion Chronciles. All rights reserved.</p>
+        <p>We provide top-notch Web Design, SEO, and Content Writing services to help your business grow. Contact us for tailored solutions!</p>
+        
+    </footer>
+    
+</body>
+</html>

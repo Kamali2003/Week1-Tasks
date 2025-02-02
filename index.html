@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-image: url('bg1.png');
+            background-size: cover; 
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center; 
+            padding: 20px 0; 
+        }
+
+        .tfc {
+            font-size: 3rem;
+            color: darkmagenta;
+            margin: 0; 
+        }
+
+        h4 {
+            font-size: 3rem;
+            color: gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh; 
+            margin: 0; 
+            
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-start; 
+            padding: 10px; 
+        }
+
+        nav ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            display: flex; 
+        }
+
+        nav ul li {
+            margin: 0 10px; 
+            position: relative; 
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: darkmagenta; 
+            font-weight: bold;
+            padding: 8px 8px; 
+            display: block;
+            font-size: 20px;
+            gap:15px;
+        }
+
+        nav ul li a:hover {
+            color: gray; 
+        }
+
+      
+        nav ul li .dropdown {
+            display: none; 
+            position: absolute;
+            top: 100%; 
+            left: 0;
+            background-color: #fff; 
+            
+        }
+
+
+        nav ul li .dropdown li {
+            margin: 0; 
+        }
+
+        nav ul li .dropdown li a {
+            padding: 10px 20px; 
+            color: darkmagenta; 
+            white-space: nowrap; 
+        }
+
+        nav ul li .dropdown li a:hover {
+            background-color:whitesmoke; 
+        }
+
+        nav ul li:hover .dropdown {
+            display: block;
+        }
+        
+        .login{
+            display: flex;
+            justify-content: flex-end; 
+            padding: 10px;
+            
+        }
+
+        .login a{
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+            color: darkmagenta;
+            align-items:start;
+            display: block; 
+            text-decoration: none;  
+            font-weight: bold;
+            font-size: 20px;
+        }
+        img{
+            opacity: 0.5;
+            width: 100%;
+            padding: 50px;
+        }
+
+        .e{
+            max-width: 500px;
+            position: absolute;
+            top: 475px;
+            color: lightseagreen;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="login">
+            <a href="login.html">Login</a>
+            <a href="signup.html">signup</a>
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li>
+                    <a href="services.html">Services</a>
+                    <ul class="dropdown">
+                        <li><a href="web-design.html">Web Design</a></li>
+                        <li><a href="seo.html">SEO</a></li>
+                        <li><a href="content-writing.html">Content Writing</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="tfc">THE FUSION CHRONICLES</h1>
+    </header>
+    <h4><i>Navigating the digital world, one meal at a time!</i>
+    
+    <img src="bg5.jpg" alt="bg5"></h4>
+    <p class="e">Blending technology, flavors, and destinations into a seamless experience! From coding innovations to culinary adventures and travel tales, explore a world where tech, taste, and travel collide.</p>
+    
+        
+    
+</body>
+</html>
